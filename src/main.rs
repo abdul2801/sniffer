@@ -3,6 +3,7 @@ use packets::parse;
 
 pub mod pcap_init;
 mod packets;
+mod error;
 
 fn main() {
     // let mutz  cap = pcap_init::Cap::<pcap::Active>::open(None);
@@ -17,7 +18,7 @@ fn main() {
     // }
 
     let mut cap: pcap_init::Cap<pcap::Offline> =
-        pcap_init::Cap::<pcap::Offline>::open_pcap("ipv6-neig.pcap");
+        pcap_init::Cap::<pcap::Offline>::open_pcap("icmp.pcap");
     
     loop {
         match cap.next_packet() {
