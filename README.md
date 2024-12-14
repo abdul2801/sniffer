@@ -20,8 +20,8 @@ This is a Rust-based packet sniffer designed to capture and parse network packet
 
 ### Clone the Repository
 ```bash
-git clone <repository-url>
-cd rust-packet-sniffer
+git clone https://github.com/abdul2801/sniffer
+cd sniffer
 ```
 
 ### Build the Project
