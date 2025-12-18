@@ -3,6 +3,9 @@
 ## Overview
 This is a Rust-based packet sniffer designed to capture and parse network packets in real time. It features a terminal-based user interface (TUI) built with `ratatui` (formerly `tui-rs`) for easy navigation and visualization of packet data.
 
+<!--add image-->
+![Alt text](image.png)
+
 ## Features
 - **Packet Capturing**: Uses `pcap` to capture packets from a specified network interface.
 - **Packet Parsing**: Parses common protocols such as Ethernet, IPv4, IPv6, TCP, UDP, and more.
